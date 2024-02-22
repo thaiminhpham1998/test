@@ -3,7 +3,7 @@
     'version': '1.0',
     'depends': ['base','bedrooms', 'living area', 'garage', 'garden'], #bedrooms, living area, garage, garden
     'website': 'https://www.odoo.com/app/estate',
-    'author': "Author Name",
+    'author': "Thai Name",
     'category': 'Marketing/Estate',
     'description': """
     Description text
