@@ -99,7 +99,7 @@ class Lead(models.Model):
                 'utm.mixin',
                 'format.address.mixin',
                 'mail.tracking.duration.mixin',
-               ]
+        ]
     _primary_email = 'email_from'
     _check_company_auto = True
     _track_duration_field = 'stage_id'

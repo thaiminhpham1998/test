@@ -1,0 +1,38 @@
+{
+    'name' :'Hospital Management',
+    'version' :'1.0.0',
+    'category': 'Health',
+    'author' :'Manucian',
+    'sequence':-100,
+    'summary': 'Hospital management system',
+    'description':"""Hospital management system""",
+    'depends': ['mail','product'],
+    'demo': [],
+    'data': [
+        'security/ir.model.access.csv',
+        'data/data.xml',
+        'data/patient.tag.csv',
+        'views/menu.xml',
+        'views/appointment_views.xml',
+        'views/patient_views.xml',
+        'views/patient_tag_views.xml',
+        ],
+    #'installable': False,
+    'application': True,
+    'license':'LGPL-3',
+    # 'author' :'1.0',
+    # 'website': 'https://www.odoo.com/app/hospital',
+    
+    # 'description':'Hospital management system',
+    # 'depends': [],
+    # 'data': [
+    #     'views/menu.xml',
+    #     'security/ir.model.access.csv',
+        
+    #     'views/patient.cml',
+    #     ],
+    # 'installable': True,
+    # 'summary': 'Hospital management system',
+    # 'application': True,
+    # 'license':'LGPL-3',
+}
